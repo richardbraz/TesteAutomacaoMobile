@@ -24,6 +24,7 @@ public class CadastroDeUsuario{
 
     @Dado("que estou na tela principal do app")
     public void queEstouNaTelaPrincipalDoApp() throws InterruptedException {
+        this.Allow.SelecionarAllow();
 
     }
 

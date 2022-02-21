@@ -22,7 +22,7 @@ public class AndroidScreen extends BaseScreen {
     public void SelecionarAllow() throws InterruptedException {
         Thread.sleep(1000);
 
-//        new TouchAction(DriverFactoryManager.getDriver()).tap(540,1090).perform();
+        new TouchAction(DriverFactoryManager.getDriver()).tap(540,1090).perform();
 //        this.findElement(By.xpath(".//android.widget.Button[1]")).click();
 
     }
