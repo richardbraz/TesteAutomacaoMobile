@@ -1,0 +1,10 @@
+{
+  "platformName": "android",
+  "deviceName": "Xiaomi",
+  "platformVersion": "12",
+  "automationName": "UiAutomator2",
+  "udid": "emulator-5554",
+  "avd": "Xiaomi",
+  "fullReset": false,
+  "newCommandTimeout": 5
+}

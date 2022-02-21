@@ -1,0 +1,12 @@
+capabilities\DriverFactoryManager.class
+screen\AndroidScreen.class
+capabilities\AndroidCapabilities.class
+screen\BaseScreen.class
+Steps\CadastroDeUsuario.class
+Cucumber\runner\CucumberRunnerTest.class
+Steps\ExibirInfo.class
+screen\CadastroScreen.class
+screen\InfoScreen.class
+screen\HomeScreen.class
+capabilities\Load_Capabilities$1.class
+capabilities\Load_Capabilities.class
