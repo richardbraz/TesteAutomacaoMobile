@@ -14,7 +14,7 @@ Projeto appium com cucumber para automação mobile (plataforma android)
 1. Startando o appium desktop: `$ appium`
 
 
-2. Rodando os testes no android: `$ mvn clean test -Dcucumber.options="--tags @TesteAutomacaoCenario01" -Denv.PLATAFORM=ANDROID` (Foi utilizado essa tag como primeira execução e exemplo, podendo rodar outra tag dentro da escrita Gherkin, dentro de features.)
+2. Rodando os testes no android: `$ mvn clean test -Dcucumber.options="--tags @TesteCadastroUsuario" -Denv.PLATAFORM=ANDROID` (Foi utilizado essa tag como primeira execução e exemplo, a outra tag é: @ExibirInfo)
    (Necessário efetuar algumas pequenas alterações em: resources\capabilities\androidpie.json, alteraçõe como: DeviceName, PlataformName, PlataformVersion, avd.)
 
 

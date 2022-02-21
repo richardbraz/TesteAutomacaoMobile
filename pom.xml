@@ -106,14 +106,12 @@
                 </dependencies>
             </plugin>
             <plugin>
-                <groupId>io.qameta.allure</groupId>
-                <artifactId>allure-maven</artifactId>
-                <version>2.9</version>
-                <configuration>
-                    <reportVersion>2.17.2</reportVersion>
-                    <!--suppress UnresolvedMavenProperty -->
-                    <resultsDirectory>${soapui.results.directory}</resultsDirectory>
-                </configuration>
+                    <groupId>io.qameta.allure</groupId>
+                    <artifactId>allure-maven</artifactId>
+                    <version>2.10.0</version>
+                    <configuration>
+                        <reportVersion>2.14.0</reportVersion>
+                    </configuration>
             </plugin>
         </plugins>
     </build>
